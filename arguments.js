@@ -1,3 +1,3 @@
 export default [
-  "1000000000" // Your initialSupply in base units (without decimals)
+  "1000000000"
 ];

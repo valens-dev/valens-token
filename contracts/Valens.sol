@@ -11,7 +11,6 @@ contract Valens is ERC20, Ownable {
         _mint(msg.sender, initialSupply * 10 ** decimals());
     }
 
-    // Optional: Add a burn function
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
     }
